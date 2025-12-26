@@ -47,32 +47,32 @@ The main goal of this project is to keep the logic simple, readable, and easy to
 git clone https://github.com/akashsharma1462/django-route-fuel-calculator.git
 cd django-route-fuel-calculator
 
-2️⃣ Create and activate a virtual environment
+### 2️⃣ Create and activate a virtual environment
 ```bash
 python -m venv venv
 venv\Scripts\activate
 
-3️⃣ Install required packages
+### 3️⃣ Install required packages
 ```bash
 pip install django djangorestframework
 
-4️⃣ Run the Django server
+### 4️⃣ Run the Django server
 ```bash
 python manage.py runserver
 
-The server will start at:
+### The server will start at:
 http://127.0.0.1:8000/
 
-📡 API Endpoint Details
+### 📡 API Endpoint Details
 POST /api/route/
 
-Request Body (JSON)
+### Request Body (JSON)
 {
   "start": "New York",
   "end": "Los Angeles"
 }
 
-Sample Response
+### Sample Response
 {
   "start": "New York",
   "end": "Los Angeles",
@@ -87,7 +87,7 @@ Sample Response
   "total_fuel_cost": 682.5
 }
 
-🧠 How the Logic Works (Simple Explanation)
+### 🧠 How the Logic Works (Simple Explanation)
 
 The total trip distance is calculated (fixed example for simplicity).
 The vehicle can travel 500 miles on a full tank.
@@ -96,15 +96,16 @@ Fuel stations are sorted by cheapest price.
 Whenever the remaining distance exceeds vehicle range, a fuel stop is added.
 Total fuel cost is calculated based on mileage and fuel price.
 
-🧪 Testing the API Using Postman
+### 🧪 Testing the API Using Postman
 Open Postman
 Create a new POST request
 Enter URL:
 http://127.0.0.1:8000/api/route/
-
 Go to Body → raw → JSON
 Add request body and click Send
 View the JSON response
+
+---
 
 ## 🔍 Assumptions Made
 
@@ -114,4 +115,8 @@ View the JSON response
 - Fuel prices are taken directly from the provided CSV file
 - Distance calculation is kept simple for clarity
 
-Thanks.......
+---
+
+# Thanks.......
+
+---
