@@ -42,7 +42,6 @@ The main goal of this project is to keep the logic simple, readable, and easy to
 ## ⚙️ How to Run the Project Locally
 
 ### 1️⃣ Clone the repository
-
 ```bash
 git clone https://github.com/akashsharma1462/django-route-fuel-calculator.git
 cd django-route-fuel-calculator
