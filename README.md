@@ -35,17 +35,7 @@ The main goal of this project is to keep the logic simple, readable, and easy to
 
 ## 📁 Project Structure
 
-django-route-fuel-calculator
-│── config
-│ ├── settings.py
-│ ├── urls.py
-│── routes
-│ ├── data
-│ │ └── fuel-prices-for-be-assessment.csv
-│ ├── views.py
-│ ├── urls.py
-│── manage.py
-│── README.md
+![Project Structure](images/project-structure.png)
 
 ---
 
